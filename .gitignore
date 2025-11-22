@@ -174,3 +174,9 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# Project-specific
+# Audio files generated at runtime
+audio/*.mp3
+audio/*.webm
+!audio/.gitkeep
